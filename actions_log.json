@@ -1,0 +1,248 @@
+[
+  {
+    "timestamp": 1755046969.1186714,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.215613,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.3486283,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.3636339,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.4269552,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.4729536,
+    "action": "Run Left",
+    "key": "a",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.4870784,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.5026352,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.6721156,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.8756468,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046969.9647698,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.1339934,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.2285686,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.2415643,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.257569,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.2715662,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.4367423,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.525633,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.6006327,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.7022576,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.779275,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.792275,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.8783095,
+    "action": "Move Up",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046970.9605386,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.0612621,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.0872607,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.1513238,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.164327,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.3003893,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.3284218,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.7147484,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.7427506,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.8570392,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046971.9683743,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.0816576,
+    "action": "Forward",
+    "key": "w",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.1569812,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.1989918,
+    "action": "Backward",
+    "key": "s",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.229383,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.3401484,
+    "action": "Glide",
+    "key": "shift",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046972.356153,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  },
+  {
+    "timestamp": 1755046974.3609204,
+    "action": "Jump",
+    "key": "space",
+    "state": "playing"
+  }
+]

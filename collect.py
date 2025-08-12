@@ -7,6 +7,7 @@ os.makedirs(frames_dir, exist_ok=True)
 
 # 打开视频文件
 video_path = 'clip.mp4'
+video_path = 'test.mp4'
 cap = cv2.VideoCapture(video_path)
 
 frame_count = 0

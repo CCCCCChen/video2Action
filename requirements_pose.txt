@@ -1,0 +1,28 @@
+# YOLO + MediaPipe Pose 动作识别系统依赖包
+
+# 核心依赖
+opencv-python>=4.8.0
+numpy>=1.21.0
+scipy>=1.7.0
+
+# YOLO模型
+ultralytics>=8.0.0
+torch>=1.13.0
+torchvision>=0.14.0
+
+# MediaPipe
+mediapipe>=0.10.0
+
+# 卡尔曼滤波
+filterpy>=1.4.5
+
+# 按键模拟（可选）
+pynput>=1.7.6
+
+# 其他工具
+Pillow>=8.3.0
+matplotlib>=3.5.0
+
+# 开发和调试
+ipython>=7.0.0
+jupyter>=1.0.0

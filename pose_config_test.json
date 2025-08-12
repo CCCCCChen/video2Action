@@ -1,0 +1,32 @@
+{
+  "model_settings": {
+    "yolo_model_path": "yolov8n.pt",
+    "video_path": "test_video.mp4",
+    "confidence_threshold": 0.3
+  },
+  "roi_settings": {
+    "center_region_ratio": 0.8,
+    "roi_expand_ratio": 2.0,
+    "kalman_q": 0.01,
+    "kalman_r": 0.1
+  },
+  "optical_flow_settings": {
+    "optical_flow_points": 50,
+    "camera_move_threshold": 3.0
+  },
+  "action_detection": {
+    "jump_threshold": 10,
+    "move_threshold": 5,
+    "idle_threshold": 2,
+    "action_smooth_frames": 2
+  },
+  "key_mapping": {
+    "Jump": "space",
+    "Landing": "space",
+    "Move Right": "d",
+    "Move Left": "a",
+    "Move Forward": "w",
+    "Move Backward": "s",
+    "Idle": null
+  }
+}

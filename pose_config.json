@@ -1,0 +1,62 @@
+{
+  "model_settings": {
+    "yolo_model_path": "yolov8n.pt",
+    "video_path": "test.mp4",
+    "confidence_threshold": 0.5
+  },
+  "roi_settings": {
+    "center_region_ratio": 0.6,
+    "roi_expand_ratio": 1.5,
+    "kalman_q": 0.001,
+    "kalman_r": 0.01
+  },
+  "optical_flow_settings": {
+    "optical_flow_points": 100,
+    "camera_move_threshold": 5.0,
+    "lk_win_size": 15,
+    "lk_max_level": 2,
+    "feature_max_corners": 100,
+    "feature_quality_level": 0.3,
+    "feature_min_distance": 7
+  },
+  "action_detection": {
+    "jump_threshold": 15,
+    "move_threshold": 8,
+    "idle_threshold": 3,
+    "action_smooth_frames": 3,
+    "pose_history_length": 10
+  },
+  "mediapipe_pose": {
+    "model_complexity": 1,
+    "min_detection_confidence": 0.5,
+    "min_tracking_confidence": 0.5,
+    "enable_segmentation": false
+  },
+  "genshin_optimization": {
+    "fixed_center_detection": true,
+    "breathing_filter_threshold": 2.0,
+    "camera_rotation_filter": true,
+    "action_consistency_frames": 3
+  },
+  "key_mapping": {
+    "Jump": "space",
+    "Landing": "space",
+    "Move Right": "d",
+    "Move Left": "a",
+    "Move Forward": "w",
+    "Move Backward": "s",
+    "Idle": null
+  },
+  "display_settings": {
+    "show_roi": true,
+    "show_pose_landmarks": true,
+    "show_camera_status": true,
+    "show_statistics": true,
+    "window_name": "YOLO + MediaPipe Pose Action Recognition"
+  },
+  "logging": {
+    "save_actions": true,
+    "log_filename": "pose_actions_log.json",
+    "auto_save_interval": 100
+  }
+}

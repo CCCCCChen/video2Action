@@ -1,0 +1,41 @@
+{
+  "key_mapping": {
+    "Left Turn": "a",
+    "Right Turn": "d",
+    "Forward": "w",
+    "Backward": "s",
+    "Jump": "space",
+    "Glide": "shift",
+    "Run Left": "a",
+    "Run Right": "d",
+    "Run Forward": "w",
+    "Run Backward": "s",
+    "Move Up": "w",
+    "Move Down": "s",
+    "Crouch": "ctrl"
+  },
+  "detection_settings": {
+    "confidence_threshold": 0.5,
+    "center_region": {
+      "x_min_ratio": 0.3,
+      "x_max_ratio": 0.7,
+      "y_min_ratio": 0.1,
+      "y_max_ratio": 0.9
+    },
+    "movement_thresholds": {
+      "horizontal_movement": 15,
+      "vertical_movement": 10,
+      "size_change": 8,
+      "jump_threshold": 25,
+      "speed_threshold": 8
+    },
+    "idle_detection": {
+      "idle_frames": 60,
+      "no_person_frames": 30
+    }
+  },
+  "video_settings": {
+    "video_path": "clip.mp4",
+    "model_path": "yolov8n.pt"
+  }
+}

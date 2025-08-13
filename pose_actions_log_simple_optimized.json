@@ -1,0 +1,318 @@
+{
+  "stats": {
+    "total_frames": 1820,
+    "person_detected_frames": 126,
+    "actions_detected": 11,
+    "camera_movement_frames": 0,
+    "average_confidence": 0.6817385749296924,
+    "average_processing_time": 0.07674357815394325,
+    "max_processing_time": 0.14278388023376465,
+    "min_processing_time": 0.026486873626708984
+  },
+  "actions": [
+    {
+      "timestamp": 1755049505.19429,
+      "frame": 493,
+      "action": "Landing",
+      "simulated_key": "space",
+      "roi": [
+        862,
+        416,
+        169,
+        397
+      ],
+      "roi_confidence": 0.8271145713627194,
+      "pose_confidence": 0.6317343894730915,
+      "combined_confidence": 0.7294244804179054,
+      "camera_moving": false,
+      "camera_movement": [
+        0.00011470794561319053,
+        -5.3100586228538305e-05
+      ]
+    },
+    {
+      "timestamp": 1755049505.2802615,
+      "frame": 494,
+      "action": "Landing",
+      "simulated_key": "space",
+      "roi": [
+        864,
+        415,
+        166,
+        399
+      ],
+      "roi_confidence": 0.8220236146097459,
+      "pose_confidence": 0.6356945749033581,
+      "combined_confidence": 0.7288590947565521,
+      "camera_moving": false,
+      "camera_movement": [
+        9.96780363493599e-05,
+        -0.00010223388380836695
+      ]
+    },
+    {
+      "timestamp": 1755049506.5166092,
+      "frame": 544,
+      "action": "Landing",
+      "simulated_key": "space",
+      "roi": [
+        839,
+        496,
+        155,
+        319
+      ],
+      "roi_confidence": 0.8361890613698276,
+      "pose_confidence": 0.6137930075779106,
+      "combined_confidence": 0.724991034473869,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.06911434233188629,
+        0.09961578249931335
+      ]
+    },
+    {
+      "timestamp": 1755049507.9470878,
+      "frame": 586,
+      "action": "Move Right",
+      "simulated_key": "d",
+      "roi": [
+        774,
+        493,
+        176,
+        206
+      ],
+      "roi_confidence": 0.741586815490086,
+      "pose_confidence": 0.503018813602852,
+      "combined_confidence": 0.6223028145464691,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.011362692341208458,
+        -0.006531994789838791
+      ]
+    },
+    {
+      "timestamp": 1755049508.129045,
+      "frame": 588,
+      "action": "Move Right",
+      "simulated_key": "d",
+      "roi": [
+        766,
+        486,
+        174,
+        215
+      ],
+      "roi_confidence": 0.7960112008813022,
+      "pose_confidence": 0.4977791298067931,
+      "combined_confidence": 0.6468951653440477,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.050736524164676666,
+        0.007068364415317774
+      ]
+    },
+    {
+      "timestamp": 1755049508.2124848,
+      "frame": 589,
+      "action": "Move Right",
+      "simulated_key": "d",
+      "roi": [
+        734,
+        491,
+        159,
+        191
+      ],
+      "roi_confidence": 0.7977296353346793,
+      "pose_confidence": 0.49366779444795666,
+      "combined_confidence": 0.645698714891318,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.003231559181585908,
+        0.0028973203152418137
+      ]
+    },
+    {
+      "timestamp": 1755049508.2938948,
+      "frame": 590,
+      "action": "Move Right",
+      "simulated_key": "d",
+      "roi": [
+        718,
+        493,
+        157,
+        183
+      ],
+      "roi_confidence": 0.8010198115035992,
+      "pose_confidence": 0.502264808976289,
+      "combined_confidence": 0.6516423102399441,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.0003733201592694968,
+        0.0027774078771471977
+      ]
+    },
+    {
+      "timestamp": 1755049508.3785915,
+      "frame": 591,
+      "action": "Move Right",
+      "simulated_key": "d",
+      "roi": [
+        710,
+        493,
+        154,
+        181
+      ],
+      "roi_confidence": 0.7516112109702541,
+      "pose_confidence": 0.5120330771261995,
+      "combined_confidence": 0.6318221440482268,
+      "camera_moving": false,
+      "camera_movement": [
+        0.002892629010602832,
+        0.005961716640740633
+      ]
+    },
+    {
+      "timestamp": 1755049510.5298393,
+      "frame": 628,
+      "action": "Move Backward",
+      "simulated_key": "s",
+      "roi": [
+        399,
+        557,
+        374,
+        325
+      ],
+      "roi_confidence": 0.8328260121934097,
+      "pose_confidence": 0.5839870332768469,
+      "combined_confidence": 0.7084065227351283,
+      "camera_moving": false,
+      "camera_movement": [
+        -0.0016293041408061981,
+        0.009077918715775013
+      ]
+    },
+    {
+      "timestamp": 1755049510.6213806,
+      "frame": 629,
+      "action": "Move Backward",
+      "simulated_key": "s",
+      "roi": [
+        384,
+        563,
+        385,
+        331
+      ],
+      "roi_confidence": 0.848863492192952,
+      "pose_confidence": 0.583979293139595,
+      "combined_confidence": 0.7164213926662735,
+      "camera_moving": false,
+      "camera_movement": [
+        0.09177123010158539,
+        -0.02559364028275013
+      ]
+    },
+    {
+      "timestamp": 1755049510.7526386,
+      "frame": 632,
+      "action": "Move Backward",
+      "simulated_key": "s",
+      "roi": [
+        253,
+        538,
+        301,
+        288
+      ],
+      "roi_confidence": 0.8019610031275798,
+      "pose_confidence": 0.5596690585441662,
+      "combined_confidence": 0.6808150308358729,
+      "camera_moving": false,
+      "camera_movement": [
+        0.0008993811788968742,
+        0.0024358576629310846
+      ]
+    }
+  ],
+  "config_used": {
+    "model_settings": {
+      "yolo_model_path": "yolov8s.pt",
+      "video_path": "test.mp4",
+      "confidence_threshold": 0.5,
+      "iou_threshold": 0.5,
+      "max_detections": 1
+    },
+    "roi_settings": {
+      "center_region_ratio": 0.8,
+      "roi_expand_ratio": 1.2,
+      "roi_stability_threshold": 50,
+      "roi_min_size": 80,
+      "roi_max_size": 400
+    },
+    "optical_flow_settings": {
+      "optical_flow_points": 200,
+      "camera_move_threshold": 3.0,
+      "lk_win_size": 21,
+      "lk_max_level": 3,
+      "feature_max_corners": 200,
+      "feature_quality_level": 0.01,
+      "feature_min_distance": 10,
+      "flow_magnitude_threshold": 2.0,
+      "flow_consistency_threshold": 0.8
+    },
+    "action_detection": {
+      "jump_threshold": 20,
+      "move_threshold": 12,
+      "idle_threshold": 5,
+      "action_smooth_frames": 5,
+      "pose_history_length": 15,
+      "velocity_smooth_frames": 3,
+      "acceleration_threshold": 8,
+      "position_change_threshold": 10
+    },
+    "mediapipe_pose": {
+      "model_complexity": 2,
+      "min_detection_confidence": 0.5,
+      "min_tracking_confidence": 0.5,
+      "enable_segmentation": false,
+      "smooth_landmarks": true,
+      "smooth_segmentation": false
+    },
+    "genshin_optimization": {
+      "fixed_center_detection": true,
+      "breathing_filter_threshold": 1.5,
+      "camera_rotation_filter": true,
+      "action_consistency_frames": 4,
+      "multi_frame_validation": true,
+      "pose_confidence_threshold": 0.6,
+      "landmark_stability_check": true
+    },
+    "advanced_filtering": {
+      "temporal_smoothing": true,
+      "outlier_detection": true,
+      "confidence_weighting": true,
+      "adaptive_thresholds": true,
+      "noise_reduction": true
+    },
+    "key_mapping": {
+      "Jump": "space",
+      "Landing": "space",
+      "Move Right": "d",
+      "Move Left": "a",
+      "Move Forward": "w",
+      "Move Backward": "s",
+      "Idle": null
+    },
+    "display_settings": {
+      "window_name": "YOLO + MediaPipe Pose Detection (Optimized)",
+      "show_roi": true,
+      "show_pose": true,
+      "show_optical_flow": true,
+      "show_action_text": true,
+      "show_confidence": true
+    },
+    "logging": {
+      "enable_logging": true,
+      "log_level": "INFO",
+      "save_detailed_logs": true,
+      "performance_monitoring": true
+    }
+  }
+}

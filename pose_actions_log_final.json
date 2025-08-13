@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "total_frames": 4876,
+    "person_detected_frames": 2560,
+    "actions_detected": 219,
+    "camera_movement_frames": 41,
+    "average_confidence": 0.5148194630164653,
+    "average_processing_time": 0.035953184392630226,
+    "max_processing_time": 0.4142129421234131,
+    "min_processing_time": 0.011839866638183594
+  },
+  "actions": [
+    {
+      "timestamp": 1755050103.8733983,
+      "frame": 396,
+      "action": "Move Left",
+      "simulated_key": "a",
+      "roi": [
+        900,
+        435,
+        141,
+        348
+      ],
+      "roi_confidence": 0.8268012404441833,
+      "pose_confidence": 0.6884717548435385,
+      "action_confidence": 1.0,
+      "combined_confidence": 0.838424331762574,
+      "camera_moving": 

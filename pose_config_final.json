@@ -1,0 +1,93 @@
+{
+  "model_settings": {
+    "yolo_model_path": "yolov8n.pt",
+    "confidence_threshold": 0.3,
+    "iou_threshold": 0.7,
+    "max_detections": 1,
+    "device": "auto"
+  },
+  "roi_settings": {
+    "roi_expansion_factor": 1.3,
+    "roi_smoothing_factor": 0.6,
+    "min_roi_size": [80, 120],
+    "max_roi_size": [600, 800],
+    "roi_stability_threshold": 15,
+    "roi_update_threshold": 0.4
+  },
+  "optical_flow_settings": {
+    "feature_params": {
+      "maxCorners": 200,
+      "qualityLevel": 0.01,
+      "minDistance": 10,
+      "blockSize": 7
+    },
+    "lk_params": {
+      "winSize": [15, 15],
+      "maxLevel": 3,
+      "criteria": {
+        "type": 3,
+        "maxCount": 10,
+        "epsilon": 0.03
+      }
+    },
+    "movement_threshold": 1.5,
+    "min_features": 50
+  },
+  "action_detection": {
+    "jump_threshold": 0.08,
+    "landing_threshold": 0.06,
+    "move_threshold": 0.04,
+    "action_smoothing_frames": 3,
+    "min_action_confidence": 0.4,
+    "action_cooldown_frames": 8,
+    "velocity_smoothing_factor": 0.4
+  },
+  "mediapipe_pose": {
+    "static_image_mode": false,
+    "model_complexity": 1,
+    "smooth_landmarks": true,
+    "enable_segmentation": false,
+    "smooth_segmentation": false,
+    "min_detection_confidence": 0.4,
+    "min_tracking_confidence": 0.4
+  },
+  "genshin_optimization": {
+    "character_height_ratio": 0.6,
+    "jump_detection_sensitivity": 0.8,
+    "movement_detection_sensitivity": 0.7,
+    "landing_detection_sensitivity": 0.9
+  },
+  "key_mapping": {
+    "Jump": "space",
+    "Landing": "space",
+    "Move Left": "a",
+    "Move Right": "d",
+    "Move Forward": "w",
+    "Move Backward": "s"
+  },
+  "advanced_filtering": {
+    "kalman_filter": {
+      "process_noise": 0.01,
+      "measurement_noise": 0.1,
+      "estimation_error": 1.0
+    },
+    "temporal_smoothing": {
+      "position_smoothing": 0.7,
+      "velocity_smoothing": 0.5,
+      "confidence_smoothing": 0.6
+    },
+    "outlier_detection": {
+      "enable": true,
+      "z_score_threshold": 2.5,
+      "min_samples": 5
+    }
+  },
+  "display_settings": {
+    "show_video": true,
+    "show_roi": true,
+    "show_pose": true,
+    "show_optical_flow": false,
+    "show_stats": true,
+    "video_scale": 0.8
+  }
+}
